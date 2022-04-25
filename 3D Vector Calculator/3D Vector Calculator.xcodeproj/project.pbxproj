@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E36441402810CE5C00A745DD /* 3Dpoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E364413F2810CE5C00A745DD /* 3Dpoints.cpp */; };
+		E36441682812A6E900A745DD /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E36441662812A6E900A745DD /* Point.cpp */; };
+		E364416C2812AC9000A745DD /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E364416A2812AC9000A745DD /* Vector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,10 @@
 		E364413C2810CE5C00A745DD /* 3D Vector Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3D Vector Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E364413F2810CE5C00A745DD /* 3Dpoints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3Dpoints.cpp; sourceTree = "<group>"; };
 		E36441472810D5A900A745DD /* Vector Math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = "Vector Math.hpp"; path = "3D Vector Calculator/Vector Math.hpp"; sourceTree = "<group>"; };
+		E36441662812A6E900A745DD /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		E36441672812A6E900A745DD /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		E364416A2812AC9000A745DD /* Vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
+		E364416B2812AC9000A745DD /* Vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,10 @@
 		E364413E2810CE5C00A745DD /* 3D Vector Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E364416A2812AC9000A745DD /* Vector.cpp */,
+				E364416B2812AC9000A745DD /* Vector.hpp */,
+				E36441662812A6E900A745DD /* Point.cpp */,
+				E36441672812A6E900A745DD /* Point.hpp */,
 				E364413F2810CE5C00A745DD /* 3Dpoints.cpp */,
 			);
 			path = "3D Vector Calculator";
@@ -121,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36441682812A6E900A745DD /* Point.cpp in Sources */,
 				E36441402810CE5C00A745DD /* 3Dpoints.cpp in Sources */,
+				E364416C2812AC9000A745DD /* Vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
